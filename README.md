@@ -29,4 +29,18 @@ El resultado es un prototipo funcional que digitaliza el posicionamiento, elimin
 3. **Diseño Electrónico (EDA):** Elaboración de esquemáticos, ruteado de pistas y modelado 3D de la placa base en EasyEDA.
 
 ## 📸 Validación y Prototipo Físico
+## 📸 Validación y Prototipo Físico
 
+### Ingeniería Electrónica y Control
+![Diseño de PCB](pcb-diseno.png)
+*Vista 3D del diseño de la PCB en EasyEDA.*
+
+![Respuesta del Sistema PID](grafica-pid.png)
+*Análisis de la respuesta del sistema: Gráfica de sintonización del control PID para el posicionamiento del motor DC.*
+
+### Interfaz y Ensamble
+![Interfaz HMI Nextion](interfaz-hmi.jpg)
+*Panel de control táctil Nextion de 7" para el ingreso de medidas y visualización de estados.*
+
+![Sistema Mecatrónico Final](ensamble-final.jpg)
+*Prototipo funcional instalado y validado en la sierra ingletadora.*
