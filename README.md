@@ -31,16 +31,61 @@ El resultado es un prototipo funcional que digitaliza el posicionamiento, elimin
 ## 📸 Validación y Prototipo Físico
 ## 📸 Validación y Prototipo Físico
 
-### Ingeniería Electrónica y Control
-![Diseño de PCB](pcb-diseno.png)
-*Vista 3D del diseño de la PCB en EasyEDA.*
+## 📸 Galería del Proyecto y Validación Técnica
 
-![Respuesta del Sistema PID](grafica-pid.png)
-*Análisis de la respuesta del sistema: Gráfica de sintonización del control PID para el posicionamiento del motor DC.*
+### ⚡ Ingeniería Electrónica y Control
+En esta sección se muestra el diseño de hardware robusto y la sintonización del lazo de control para el posicionamiento preciso.
 
-### Interfaz y Ensamble
-![Interfaz HMI Nextion](interfaz-hmi.jpg)
-*Panel de control táctil Nextion de 7" para el ingreso de medidas y visualización de estados.*
+![Diseño de PCB 3D](img/pcb-diseno-3d.png)
+*Vista 3D del diseño de la PCB desarrollado en EasyEDA, optimizado para aislamiento de ruido.*
 
-![Sistema Mecatrónico Final](ensamble-final.jpg)
-*Prototipo funcional instalado y validado en la sierra ingletadora.*
+![Respuesta del Sistema PID](img/grafica-pid.png)
+*Gráfica de sintonización del control PID: Análisis de la respuesta del motor ante el escalón de posición.*
+
+---
+
+### 🖥️ Interfaz HMI (Human-Machine Interface)
+Se desarrolló una interfaz táctil intuitiva para que el operario pueda calibrar y operar la máquina sin necesidad de conocimientos técnicos avanzados.
+
+<table style="width:100%">
+  <tr>
+    <td><img src="img/interfaz-hmi.png" alt="Menú Principal"></td>
+    <td><img src="img/hmi-calibracion.png" alt="Pantalla de Calibración"></td>
+  </tr>
+</table>
+*Izquierda: Pantalla principal de operación. Derecha: Menú de calibración del sistema.*
+
+<table style="width:100%">
+  <tr>
+    <td><img src="img/hmi-funcionando.png" alt="HMI en operación"></td>
+    <td><img src="img/hmi-funcionando-2.png" alt="HMI en operación 2"></td>
+  </tr>
+</table>
+*Registro de la interfaz táctil en tiempo real durante los ciclos de corte.*
+
+---
+
+### 🔧 Diseño Mecánico y Transmisión
+Detalle de la adaptación del sistema de medición al chasis de la maquinaria industrial.
+
+![Mecanismo de Traslado](img/mecanismo-traslado.png)
+*Detalle del sistema de transmisión y soporte del tope móvil.*
+
+![Ensamble Final](img/ensamble-final.png)
+*Integración mecánica completa del sistema de medición sobre la estructura base.*
+
+---
+
+### 🏗️ Pruebas de Campo y Operación
+Validación del sistema en un entorno de trabajo real, verificando la repetibilidad y precisión milimétrica.
+
+![Máquina Ingletadora](img/maquina-ingletadora.png)
+*Vista general de la maquinaria automatizada lista para operación.*
+
+<table style="width:100%">
+  <tr>
+    <td><img src="img/operando-maquina.png" alt="Operando"></td>
+    <td><img src="img/verificando-medida.png" alt="Verificación"></td>
+  </tr>
+</table>
+*Izquierda: Operación del sistema de corte. Derecha: Verificación física de la precisión digital mediante medición directa.*
