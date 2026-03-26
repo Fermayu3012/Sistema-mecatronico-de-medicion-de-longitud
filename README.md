@@ -1,4 +1,12 @@
 # Sistema mecatrónico de medicion de longitud
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Functional_Prototype-green?style=for-the-badge&logo=github">
+  <img src="https://img.shields.io/badge/Microcontroller-ESP32-E74C3C?style=for-the-badge&logo=espressif">
+  <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B">
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
+</p>
+
+---
 El proyecto digitaliza el proceso de corte mediante sensores de precisión y una interfaz HMI, eliminando el error humano del flexómetro convencional, reduciendo el desperdicio de material y garantizando la repetibilidad técnica en la fabricación de carpintería de aluminio
 **Tipo de Proyecto:** Investigación y Desarrollo (I+D) / Prototipo Funcional | Año: 2024
 
