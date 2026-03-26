@@ -39,10 +39,10 @@ El resultado es un prototipo funcional que digitaliza el posicionamiento, elimin
 ## 📸 Galería del Proyecto y Validación Técnica
 
 ### ⚡ Ingeniería Electrónica y Control
-En esta sección se muestra el diseño de hardware robusto y la sintonización del lazo de control para el posicionamiento preciso.
+En esta sección se muestra el diseño de hardware y la sintonización del lazo de control para el posicionamiento preciso.
 
 ![Diseño de PCB 3D](img/pcb-diseno-3d.png)
-*Vista 3D del diseño de la PCB desarrollado en EasyEDA, optimizado para aislamiento de ruido.*
+*Vista 3D del diseño de la PCB desarrollado en EasyEDA*
 
 ![Respuesta del Sistema PID](img/grafica-pid.png)
 *Gráfica de sintonización del control PID: Análisis de la respuesta del motor ante el escalón de posición.*
@@ -66,15 +66,16 @@ Se desarrolló una interfaz táctil intuitiva para que el operario pueda calibra
     <td><img src="img/hmi-funcionando-2.png" alt="HMI en operación 2"></td>
   </tr>
 </table>
-*Registro de la interfaz táctil en tiempo real durante los ciclos de corte.*
+*HMI interfaz táctil en tiempo real la posicion del tope longitudinal.*
 
 ---
 
 ### 🔧 Diseño Mecánico y Transmisión
-Detalle de la adaptación del sistema de medición al chasis de la maquinaria industrial.
+Detalle de la adaptación del sistema de medición.
 
 ![Mecanismo de Traslado](img/mecanismo-traslado.png)
-*Detalle del sistema de transmisión y soporte del tope móvil.*
+
+*Detalle del sistema de soporte del sierra ingletadora*
 
 ![Ensamble Final](img/ensamble-final.png)
 *Integración mecánica completa del sistema de medición sobre la estructura base.*
