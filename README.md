@@ -13,19 +13,20 @@ Este proyecto de I+D nació con un doble propósito:
 
 El resultado es un prototipo funcional que digitaliza el posicionamiento, elimina el error humano en la medición y establece una base sólida para el desarrollo de maquinaria a medida para el sector industrial.
 
-**⚙️ Tecnologías y Componentes Utilizados**
-***Hardware e Integración***
+##⚙️ Tecnologías y Componentes Utilizados
+
+### Hardware e Integración
 1. **Hardware e Integración:** Microcontrolador principal: ESP32 (Módulo DevKitC V4 de 38 pines) encargado del procesamiento en tiempo real y la ejecución del lazo de control PID.
 2. **Sensores de posición:** Encoder óptico de cuadratura HDS400 (configurado por interpolación para alta precisión) y finales de carrera electromecánicos para la calibración de inicio (Home).
 3. **Actuadores:** Motor DC de 24V NISCA NA4056U con caja reductora (relación 78.2:1), manejado mediante un driver de potencia DRV8871.
 4. **Interfaz HMI:** Pantalla inteligente táctil Nextion de 7" (NX8048T070-011) en comunicación serial , combinada con un teclado numérico matricial para un ingreso de datos robusto por el operario.
 5. **Ingeniería de detalle:** Diseño de PCB a medida desarrollado en EasyEDA. Se implementó un diseño de fuentes independientes para aislar la etapa de control de la etapa de potencia, garantizando inmunidad ante el ruido electromagnético de los motores y la sierra.
 
-***Software y Diseño:***
+### Software y Diseño:
 
 1. **Firmware:** C/C++ enfocado en el control de movimiento. Se desarrolló un algoritmo de Control PID continuo/discreto para asegurar un posicionamiento suave y exacto del motor.
 2. **Diseño CAD Mecánico:** Modelado estructural de la mesa, cálculo de deflexión de la viga base y diseño del sistema de transmisión por correa de distribución.
 3. **Diseño Electrónico (EDA):** Elaboración de esquemáticos, ruteado de pistas y modelado 3D de la placa base en EasyEDA.
 
-**📸 Validación y Prototipo Físico (Lo que debes subir)**
+##📸 Validación y Prototipo Físico
 
