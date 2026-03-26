@@ -36,9 +36,6 @@ El resultado es un prototipo funcional que digitaliza el posicionamiento, elimin
 2. **Diseño CAD Mecánico:** Modelado estructural de la mesa, cálculo de deflexión de la viga base y diseño del sistema de transmisión por correa de distribución.
 3. **Diseño Electrónico (EDA):** Elaboración de esquemáticos, ruteado de pistas y modelado 3D de la placa base en EasyEDA.
 
-## 📸 Validación y Prototipo Físico
-## 📸 Validación y Prototipo Físico
-
 ## 📸 Galería del Proyecto y Validación Técnica
 
 ### ⚡ Ingeniería Electrónica y Control
