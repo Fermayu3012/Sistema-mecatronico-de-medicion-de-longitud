@@ -13,7 +13,7 @@ Este proyecto de I+D nació con un doble propósito:
 
 El resultado es un prototipo funcional que digitaliza el posicionamiento, elimina el error humano en la medición y establece una base sólida para el desarrollo de maquinaria a medida para el sector industrial.
 
-##⚙️ Tecnologías y Componentes Utilizados
+## ⚙️ Tecnologías y Componentes Utilizados
 
 ### Hardware e Integración
 1. **Hardware e Integración:** Microcontrolador principal: ESP32 (Módulo DevKitC V4 de 38 pines) encargado del procesamiento en tiempo real y la ejecución del lazo de control PID.
@@ -28,5 +28,5 @@ El resultado es un prototipo funcional que digitaliza el posicionamiento, elimin
 2. **Diseño CAD Mecánico:** Modelado estructural de la mesa, cálculo de deflexión de la viga base y diseño del sistema de transmisión por correa de distribución.
 3. **Diseño Electrónico (EDA):** Elaboración de esquemáticos, ruteado de pistas y modelado 3D de la placa base en EasyEDA.
 
-##📸 Validación y Prototipo Físico
+## 📸 Validación y Prototipo Físico
 
